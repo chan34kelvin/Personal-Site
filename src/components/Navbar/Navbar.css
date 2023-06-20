@@ -21,7 +21,7 @@
     .material-icons-outlined {
         /* changing icon size with important to override the original */
         /* calc between diff font size can only add and sub */
-        font-size: calc(1rem + 1.75vw) !important;
+        font-size: calc(1.25rem + 2vw) !important;
         padding: calc(0.25rem + 1vw) !important;
     }
 }
