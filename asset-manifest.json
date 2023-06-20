@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Kelvin-Chan-Personal-Page/static/css/main.9ea68c11.css",
-    "main.js": "/Kelvin-Chan-Personal-Page/static/js/main.ea01ffbf.js",
+    "main.js": "/Kelvin-Chan-Personal-Page/static/js/main.ed260196.js",
     "static/js/787.c0841a6b.chunk.js": "/Kelvin-Chan-Personal-Page/static/js/787.c0841a6b.chunk.js",
     "static/media/personal-page-bg.png": "/Kelvin-Chan-Personal-Page/static/media/personal-page-bg.b0351f45a9abab446f3e.png",
     "static/media/material-icons-two-tone.woff": "/Kelvin-Chan-Personal-Page/static/media/material-icons-two-tone.3baa5b8f3469222b822d.woff",
@@ -18,11 +18,11 @@
     "static/media/bootstrap-icons.woff2?": "/Kelvin-Chan-Personal-Page/static/media/bootstrap-icons.6d63d0501e5ed7b79dab.woff2",
     "index.html": "/Kelvin-Chan-Personal-Page/index.html",
     "main.9ea68c11.css.map": "/Kelvin-Chan-Personal-Page/static/css/main.9ea68c11.css.map",
-    "main.ea01ffbf.js.map": "/Kelvin-Chan-Personal-Page/static/js/main.ea01ffbf.js.map",
+    "main.ed260196.js.map": "/Kelvin-Chan-Personal-Page/static/js/main.ed260196.js.map",
     "787.c0841a6b.chunk.js.map": "/Kelvin-Chan-Personal-Page/static/js/787.c0841a6b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9ea68c11.css",
-    "static/js/main.ea01ffbf.js"
+    "static/js/main.ed260196.js"
   ]
 }
