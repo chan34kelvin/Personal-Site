@@ -72,7 +72,7 @@
     overflow-x: hidden;
     /* for firefox */
     scrollbar-width: thin;
-    /* second arg for showing color of the trench */
+    /* second arg for showing color of the gutters */
     scrollbar-color: var(--color-red) transparent; 
     color: var(--color-dark-fixed);
     height: 92.5%;
