@@ -1,0 +1,86 @@
+@media (min-width: 1200px) {
+    .about-content {
+        position: absolute;
+        top: 50%;
+        /* center at 75% of the screen */
+        left: 55%;
+        transform: translate(0%, -50%);
+        /* this keeps the element centered, fixed keeps it centered regardless of scrolling */
+        /* position: fixed;
+        transform: translate(-50%, -50%); */
+        gap: calc(1.5rem + 2.25vw);
+        /* gap: 3vw; */
+        width: 35%;
+    }
+
+    .about-description {
+        font-size: calc(0.25rem + 1vw) !important;
+    }
+
+    .contact-icon-interior {
+        font-size: calc(0.25rem + 1vw) !important;
+        padding: calc(0.05rem + 0.65vw) calc(0.1rem + 0.85vw);
+    }
+
+    .about-title-adjustment {
+        margin-left: 0% !important;
+    }
+}
+
+@media (max-width:1200px) {
+    .about-content {
+        position: relative;
+        width: 80vw;
+        max-width: 750px;
+        align-items: center;
+        gap: calc(1.5rem + 2.25vw);
+        padding-bottom: 5%;
+    }
+
+    .about-description {
+        font-size: calc(0.75rem + 1.5vw);
+        text-align: center;
+    }
+
+    .contact-icon-interior {
+        font-size: calc(1rem + 1.75vw) !important;
+        padding: calc(0.25rem + 1vw) calc(0.5rem + 1.25vw);
+    }
+}
+
+.about-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.about-description {
+    margin-top: -2.25%;
+    letter-spacing: 0.05vw;
+    font-family: "Karla", sans-serif;
+    color: var(--color-dark);
+    font-weight: 600;
+    background-color: var(--color-light);
+}
+
+.contact-icon {
+    text-decoration: none;
+    height: 5%;
+    /* zindex is the stacking order */
+    z-index: 1;
+    cursor: pointer;
+}
+
+.contact-icon-interior {
+    color: var(--color-dark);
+    border: 2.5px solid var(--color-dark);
+    cursor: pointer;
+    border-radius: 50%;
+    transition-duration: 0.25s;
+    background-color: var(--color-light);
+    /*   box-shadow: 0px 0px 5px inset; */
+}
+
+.contact-icon-interior:hover {
+    background: var(--color-dark);
+    color: var(--color-light);
+}

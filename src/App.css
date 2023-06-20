@@ -1,38 +1,117 @@
-.App {
-  text-align: center;
+/* globally shared css all goes here */
+@media (min-width: 1200px) {
+
+    /* titles */
+    .text-subtitle {
+        font-size: calc(0.5rem + 1.25vw) !important;
+    }
+
+    .text-title {
+        font-size: calc(1.25rem + 2vw) !important;
+        margin-left: -0.5%;
+    }
+
+    /* buttons */
+    .button {
+        font-size: calc(0.2rem + 0.95vw);
+        padding: calc(0.5rem + 1.25vw);
+        width: 55%;
+    }
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@media (max-width: 1200px) {
+    .line-block {
+        align-self: center;
+    }
+
+    .text-subtitle {
+        font-size: calc(1rem + 1.25vw) !important;
+    }
+
+    .text-title{
+        font-size: calc(1.75rem + 2.5vw) !important;
+    }
+
+    .button {
+        font-size: calc(0.75rem + 1.25vw);
+        padding: calc(1.325rem + 0.9vw) 1rem;
+        width: 450px;
+        max-width: 75vw;
+    }
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+:root {
+    --color-dark-fixed: #343434;
+    --color-light-fixed: white;
+    --color-dark: #343434;
+    --color-light: white;
+    --color-red: #da2c43;
+    --color-gray: #e5e4e2;
+    --color-transparent-bg: transparent;
+    --button-border: 0.25vw;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.line-block {
+    background-color: var(--color-dark);
+    height: calc(0.15rem + 0.25vw);
+    width: calc(2.25rem + 1.5vw);
+    margin: 0;
+    /* margin-left: 0.75%; */
+    border: none;
+    opacity: 1;
 }
 
-.App-link {
-  color: #61dafb;
+/* titles */
+.text-title {
+    font-family: "Karla", sans-serif;
+    letter-spacing: 0.25vw;
+    color: var(--color-dark);
+    background-color: var(--color-light);
+    font-weight: bolder !important;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.text-subtitle {
+    font-family: "Karla", sans-serif;
+    letter-spacing: 0.15vw;
+    color: var(--color-dark);
+    background-color: var(--color-light);
+    font-weight: 600 !important;
+}
+
+/* buttons */
+.button {
+    font-family: "Karla", sans-serif;
+    font-weight: bolder;
+    letter-spacing: 0.15vw;
+    text-align: center;
+    cursor: pointer;
+    /* z-index: 1; */
+    transition-duration: 0.25s;
+}
+
+.secondary {
+    border: var(--button-border) double var(--color-dark);
+    color: var(--color-dark);
+    background-color: transparent;
+    text-decoration: none;
+    background-color: var(--color-light);
+}
+
+.primary {
+    border: var(--button-border) solid var(--color-dark);
+    background-color: var(--color-dark);
+    color: var(--color-light);
+    text-decoration: none;
+}
+
+.primary:hover {
+    border: var(--button-border) solid var(--color-dark);
+    color: var(--color-dark);
+    background-color: transparent;
+}
+
+.secondary:hover {
+    border: var(--button-border) solid transparent;
+    background-color: transparent;
+    color: var(--color-dark);
 }

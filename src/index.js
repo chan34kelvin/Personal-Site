@@ -1,8 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import "bootstrap/dist/css/bootstrap.css";
+//this is for dropdowns
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+//icons
+import "bootstrap-icons/font/bootstrap-icons.css";
+import 'material-icons/iconfont/material-icons.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

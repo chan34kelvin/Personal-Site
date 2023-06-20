@@ -1,0 +1,87 @@
+@media(min-width: 1200px) {
+    .card-icon-exterior{
+        border: 0.25vw solid var(--color-red);
+    }
+
+    .card-icon{
+        font-size: calc(1.25rem + 2vw) !important;
+        padding: calc(0.5rem + 1.25vw) !important;
+    }
+
+    .project-card{
+        height: calc(5rem + 5.75vw);
+    }
+
+    .card-content-textbox{
+        font-size: calc(0.05rem + 0.85vw) !important;
+    }
+}
+
+@media(max-width: 1200px) {
+    .card-icon-exterior{
+        border: 0.25rem solid var(--color-red);
+    }
+
+    .card-icon{
+        font-size: calc(1.25rem + 2vw) !important;
+        padding: calc(0.5rem + 1.25vw) !important;
+    }
+
+    .project-card{
+        height: calc(7.5rem + 8.25vw);
+    }
+
+    .card-content-textbox{
+        font-size: calc(0.5rem + 1.25vw);
+    }
+}
+
+.project-card {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.project-card:hover > .card-icon-exterior{
+    background-color: var(--color-light);
+}
+
+.project-card:hover > .card-icon-exterior > .card-icon {
+    color: var(--color-dark);
+}
+
+.card-icon {
+    color: white;
+}
+
+.card-icon-exterior {
+    background-color: var(--color-red);
+    transition-duration: 0.5s;
+    display: flex;
+    align-items: center;
+}
+
+.card-content {
+    background-color: var(--color-gray);
+}
+
+.card-content-textbox {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    color: var(--color-dark-fixed);
+    height: 92.5%;
+}
+
+.card-content-textbox::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+.card-content-textbox::-webkit-scrollbar {
+    width: 2.5px;
+}
+
+.card-content-textbox::-webkit-scrollbar-thumb {
+    background-color: var(--color-red);
+}

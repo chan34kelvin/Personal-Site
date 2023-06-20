@@ -1,0 +1,26 @@
+@media (min-width: 1200px) {
+    .home-content{
+        position: fixed;
+        top: 50%;
+        left: 55%;
+        transform: translate(0%, -50%);
+        width: 40%;
+        gap: calc(2.25rem + 3vw);
+    }
+}
+
+@media(max-width: 1200px) {
+    .home-content{
+        position: relative;
+        width: 85vw;
+        max-width: 750px;
+        align-items: center;
+        gap: calc(1.5rem + 2.25vw);
+        padding-bottom: 5%;
+    }
+}
+
+.home-content{
+    display: flex;
+    flex-direction: column;
+}

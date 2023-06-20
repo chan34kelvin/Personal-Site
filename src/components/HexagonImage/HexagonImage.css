@@ -1,0 +1,119 @@
+@media (min-width: 1200px) {
+    :root {
+        --hexagon-border-thickness: 0.25vw;
+        --hexagon-area: 22.5vw;
+        --hexagon-padding: calc(var(--hexagon-border-thickness) * 2);
+    }
+
+    .hexagon-display {
+        position: absolute;
+        top: 0;
+        left: 22.5%;
+    }
+
+    .hexagon-container {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .hexagon-axis {
+        width: var(--hexagon-border-thickness);
+        height: 100vh;
+        background-color: var(--color-dark);
+    }
+}
+
+@media (max-width: 1200px) {
+    :root {
+        --hexagon-border-thickness:  calc(0.25rem + 0.25vw);
+        --hexagon-area: 75vw;
+        --hexagon-padding: calc(var(--hexagon-border-thickness) * 1);
+        --hexagon-max-area: 450px;
+    }
+
+    .hexagon-axis {
+        display: none;
+    }
+
+    .hexagon-container {
+        position: relative;
+    }
+
+    .hexagon-display {
+        position: relative;
+    }
+}
+
+.hexagon {
+    position: relative;
+    width: var(--hexagon-area);
+    height: calc(var(--hexagon-area) + 25px);
+    /* width: 52.5%;
+    height: 55%; */
+    max-height: var(--hexagon-max-area);
+    max-width: var(--hexagon-max-area);
+    background-color: var(--color-dark);
+    box-sizing: border-box;
+    /*for safari */
+    -webkit-clip-path: polygon(50% 0%,
+            100% 25%,
+            100% 75%,
+            50% 100%,
+            0% 75%,
+            0% 25%);
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    animation-duration: 1s;
+    animation-name: rotate-hexagon;
+}
+
+.hexagon-img-border {
+    position: absolute;
+    top: var(--hexagon-border-thickness);
+    left: var(--hexagon-border-thickness);
+    width: calc(100% - calc(var(--hexagon-border-thickness) * 2));
+    height: calc(100% - calc(var(--hexagon-border-thickness) * 2));
+    /*for safari */
+    -webkit-clip-path: polygon(50% 0%,
+            100% 25%,
+            100% 75%,
+            50% 100%,
+            0% 75%,
+            0% 25%);
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    background-color: var(--color-light);
+}
+
+.hexagon-img-shape {
+    position: absolute;
+    top: var(--hexagon-padding);
+    left: var(--hexagon-padding);
+    width: calc(100% - calc(var(--hexagon-padding) * 2));
+    height: calc(100% - calc(var(--hexagon-padding) * 2));
+    /*for safari */
+    -webkit-clip-path: polygon(50% 0%,
+            100% 25%,
+            100% 75%,
+            50% 100%,
+            0% 75%,
+            0% 25%);
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+
+.hexagon-img {
+    object-fit: cover;
+    image-rendering: crisp-edges;
+    z-index: 1;
+    opacity: 0.95;
+}
+
+@keyframes rotate-hexagon {
+    from {
+        transform: rotateY(180deg);
+    }
+
+    to {
+        transform: rotateY(0deg);
+    }
+}

@@ -1,0 +1,48 @@
+@media (min-width: 1200px) {
+    .navbar {
+        position: absolute;
+        top: 0;
+        left: 0.25%;
+        width: 100%;
+    }
+
+    .material-icons-outlined {
+        /* changing icon size with important to override the original */
+        font-size: calc(0.5rem + 1.25vw) !important;
+        padding: calc(0.05rem + 0.55vw) !important;
+    }
+}
+
+@media (max-width: 1200px) {
+    .navbar {
+        position: relative;
+    }
+
+    .material-icons-outlined {
+        /* changing icon size with important to override the original */
+        /* calc between diff font size can only add and sub */
+        font-size: calc(1rem + 1.75vw) !important;
+        padding: calc(0.25rem + 1vw) !important;
+    }
+}
+
+.icon {
+    text-decoration: none;
+    height: 5%;
+    /* zindex is the stacking order */
+    z-index: 1;
+    cursor: pointer;
+}
+
+.icon-interior {
+    color: var(--color-light);
+    border: 2.5px solid transparent;
+    cursor: pointer;
+    border-radius: 50%;
+    transition-duration: 0.25s;
+    /*   box-shadow: 0px 0px 5px inset; */
+}
+
+.icon-interior:hover {
+    color: transparent;
+}

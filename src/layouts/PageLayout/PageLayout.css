@@ -1,0 +1,40 @@
+@media (min-width: 1200px) {
+    .page-bg{
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100vh;
+        overflow: hidden;
+    }
+}
+
+@media(max-width: 1200px) {
+
+    .page-bg{
+        position: relative;
+        min-height: 100vh;
+    }
+
+    .page-content{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 1rem;
+    }
+}
+
+.page-bg {
+    min-width: 100vw;
+    background-image: url("../../../public/images/background/personal-page-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.page-content{
+    background-color: var(--color-transparent-bg);
+    min-height: 100vh;
+    width: 100%;
+}
