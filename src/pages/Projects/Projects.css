@@ -37,7 +37,7 @@
     position: relative;
     /* for firefox to show the scrollbar */
     scrollbar-width: thin;
-    scrollbar-color: var(--color-red) transparent;
+    scrollbar-color: var(--color-dark) transparent;
     padding-bottom: 5%;
 }
 
