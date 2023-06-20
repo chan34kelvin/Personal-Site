@@ -1,0 +1,29 @@
+{
+    "image": "./image",
+    "projects": [
+        {
+            "title": "Job Tracker",
+            "type": "db",
+            "description": "a tool that helps manage all job applications in one place. It simplifies the process of keeping track of the companies and positions you've applied to, as well as the status of each application. You can also use the app to manage tasks and take notes for each job application, making it easier to follow up with employers and future interviews.",
+            "link": "https://github.com/pterofighter-s-organization/apptracker"
+        },
+        {
+            "title": "Questionare Survey",
+            "type": "form",
+            "description": "a survey form using HTML and CSS with Google reCAPTCHA integration for security. The form features real-time error checking and provides a summary of user-entered information. It also utilizes Google Maps to accurately display the inputted location.",
+            "link": "https://kelvinchingkiuchan.github.io/CSC642-848-Fall-2021-Individual_Assignment/"  
+        },
+        {
+            "title": "Blog Database",
+            "type": "db",
+            "description": "a database to store and manage blogs, allowing users to create text-based entries with topics, images, and content. Internet viewers can access and read these blogs. Users can engage in text-based communication and leave comments on blogs.",
+            "link": "https://github.com/chan34kelvin/CSC_675-Blog_Database"
+        },
+        {
+            "title": "File System",
+            "type": "system",
+            "description": "a mimic linux file system built in C that provides a simple terminal interface with basic functions. These functions include the ability to read and write files, create files and folders, delete and move folders within the file system's tree structure.",
+            "link": "https://github.com/chan34kelvin/CSC415_FileSystem"
+        }
+    ]
+}
