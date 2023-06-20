@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/Kelvin-Chan-Personal-Site/static/css/main.a37a6aa1.css",
-    "main.js": "/Kelvin-Chan-Personal-Site/static/js/main.e78b2513.js",
-    "static/js/787.c0841a6b.chunk.js": "/Kelvin-Chan-Personal-Site/static/js/787.c0841a6b.chunk.js",
-    "static/media/personal-page-bg.png": "/Kelvin-Chan-Personal-Site/static/media/personal-page-bg.b0351f45a9abab446f3e.png",
-    "static/media/material-icons-two-tone.woff": "/Kelvin-Chan-Personal-Site/static/media/material-icons-two-tone.3baa5b8f3469222b822d.woff",
-    "static/media/material-icons-two-tone.woff2": "/Kelvin-Chan-Personal-Site/static/media/material-icons-two-tone.4ef4218c522f1eb6b5b1.woff2",
-    "static/media/material-icons-round.woff": "/Kelvin-Chan-Personal-Site/static/media/material-icons-round.5d681e2edae8c60630db.woff",
-    "static/media/material-icons-outlined.woff": "/Kelvin-Chan-Personal-Site/static/media/material-icons-outlined.f882956fd323fd322f31.woff",
-    "static/media/material-icons-round.woff2": "/Kelvin-Chan-Personal-Site/static/media/material-icons-round.c380809fd3677d7d6903.woff2",
-    "static/media/material-icons.woff": "/Kelvin-Chan-Personal-Site/static/media/material-icons.4d73cb90e394b34b7670.woff",
-    "static/media/bootstrap-icons.woff?": "/Kelvin-Chan-Personal-Site/static/media/bootstrap-icons.4753c5ba57962b4d7bf8.woff",
-    "static/media/material-icons-sharp.woff": "/Kelvin-Chan-Personal-Site/static/media/material-icons-sharp.3a4004a46a653d4b2166.woff",
-    "static/media/material-icons-outlined.woff2": "/Kelvin-Chan-Personal-Site/static/media/material-icons-outlined.6f420cf17cc0d7676fad.woff2",
-    "static/media/material-icons-sharp.woff2": "/Kelvin-Chan-Personal-Site/static/media/material-icons-sharp.219aa9140e099e6c72ed.woff2",
-    "static/media/material-icons.woff2": "/Kelvin-Chan-Personal-Site/static/media/material-icons.0c35d18bf06992036b69.woff2",
-    "static/media/bootstrap-icons.woff2?": "/Kelvin-Chan-Personal-Site/static/media/bootstrap-icons.6d63d0501e5ed7b79dab.woff2",
-    "index.html": "/Kelvin-Chan-Personal-Site/index.html",
-    "main.a37a6aa1.css.map": "/Kelvin-Chan-Personal-Site/static/css/main.a37a6aa1.css.map",
-    "main.e78b2513.js.map": "/Kelvin-Chan-Personal-Site/static/js/main.e78b2513.js.map",
-    "787.c0841a6b.chunk.js.map": "/Kelvin-Chan-Personal-Site/static/js/787.c0841a6b.chunk.js.map"
+    "main.css": "/Personal-Site/static/css/main.d3eb8cb9.css",
+    "main.js": "/Personal-Site/static/js/main.bc13a6b6.js",
+    "static/js/787.c0841a6b.chunk.js": "/Personal-Site/static/js/787.c0841a6b.chunk.js",
+    "static/media/personal-page-bg.png": "/Personal-Site/static/media/personal-page-bg.b0351f45a9abab446f3e.png",
+    "static/media/material-icons-two-tone.woff": "/Personal-Site/static/media/material-icons-two-tone.3baa5b8f3469222b822d.woff",
+    "static/media/material-icons-two-tone.woff2": "/Personal-Site/static/media/material-icons-two-tone.4ef4218c522f1eb6b5b1.woff2",
+    "static/media/material-icons-round.woff": "/Personal-Site/static/media/material-icons-round.5d681e2edae8c60630db.woff",
+    "static/media/material-icons-outlined.woff": "/Personal-Site/static/media/material-icons-outlined.f882956fd323fd322f31.woff",
+    "static/media/material-icons-round.woff2": "/Personal-Site/static/media/material-icons-round.c380809fd3677d7d6903.woff2",
+    "static/media/material-icons.woff": "/Personal-Site/static/media/material-icons.4d73cb90e394b34b7670.woff",
+    "static/media/bootstrap-icons.woff?": "/Personal-Site/static/media/bootstrap-icons.4753c5ba57962b4d7bf8.woff",
+    "static/media/material-icons-sharp.woff": "/Personal-Site/static/media/material-icons-sharp.3a4004a46a653d4b2166.woff",
+    "static/media/material-icons-outlined.woff2": "/Personal-Site/static/media/material-icons-outlined.6f420cf17cc0d7676fad.woff2",
+    "static/media/material-icons-sharp.woff2": "/Personal-Site/static/media/material-icons-sharp.219aa9140e099e6c72ed.woff2",
+    "static/media/material-icons.woff2": "/Personal-Site/static/media/material-icons.0c35d18bf06992036b69.woff2",
+    "static/media/bootstrap-icons.woff2?": "/Personal-Site/static/media/bootstrap-icons.6d63d0501e5ed7b79dab.woff2",
+    "index.html": "/Personal-Site/index.html",
+    "main.d3eb8cb9.css.map": "/Personal-Site/static/css/main.d3eb8cb9.css.map",
+    "main.bc13a6b6.js.map": "/Personal-Site/static/js/main.bc13a6b6.js.map",
+    "787.c0841a6b.chunk.js.map": "/Personal-Site/static/js/787.c0841a6b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a37a6aa1.css",
-    "static/js/main.e78b2513.js"
+    "static/css/main.d3eb8cb9.css",
+    "static/js/main.bc13a6b6.js"
   ]
 }
