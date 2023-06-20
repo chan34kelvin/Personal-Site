@@ -35,6 +35,9 @@
 
 .project-cards-section {
     position: relative;
+    /* for firefox to show the scrollbar */
+    scrollbar-width: thin;
+    scrollbar-color: var(--color-red) transparent;
     padding-bottom: 5%;
 }
 

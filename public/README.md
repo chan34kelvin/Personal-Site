@@ -31,3 +31,9 @@ npm run deploy
 - Check deployment in github repo and wait 2-5 mins
 - Inside settings, pages, it should be located to gh pages branch.
 - Check deployment section and find the link to the site.
+
+## Once finish and want to deploy again
+```
+npm run build
+npm run deploy
+```
