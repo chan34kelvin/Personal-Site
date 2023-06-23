@@ -1,6 +1,6 @@
 
 //using hashrouter because github treats this as a static site, and this is the way to make client-side routing work.
-import { HashRouter as Router, Route, Routes } from 'react-router-dom'
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 
 //layouts
 import { PageLayout } from "./layouts/PageLayout"
@@ -18,10 +18,10 @@ function App() {
 
   return (
     <div className="App">
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <PageLayout>
           <Routes>
-            <Route exact path="/" element={<Home />} />
+            <Route exact path="" element={<Home />} />
             <Route exact path="/my-projects" element={<Projects />} />
             <Route exact path="/about" element={<About />} />
             <Route element={<NotFound/>}/>

@@ -28,7 +28,7 @@
 @media (max-width: 1200px) {
     :root {
         --hexagon-border-thickness:  calc(0.25rem + 0.25vw);
-        --hexagon-area: 75vw;
+        --hexagon-area: 70vw;
         --hexagon-padding: calc(var(--hexagon-border-thickness) * 1);
         --hexagon-max-area: 450px;
     }

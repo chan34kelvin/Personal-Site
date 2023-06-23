@@ -36,13 +36,13 @@ export default function NightButton() {
             lightModeColors.forEach((values, keys) => {
                 document.documentElement.style.setProperty(keys, values);
             });
-            localStorage.setItem("mode", "light")
+            localStorage.setItem("kelvin-personal-site-display-mode", "light")
             setNightMode(false)
         } else if (mode === "night") {
             darkModeColors.forEach((values, keys) => {
                 document.documentElement.style.setProperty(keys, values);
             });
-            localStorage.setItem("mode", "night")
+            localStorage.setItem("kelvin-personal-site-display-mode", "night")
             setNightMode(true)
         }
     }, [darkModeColors, lightModeColors])
@@ -50,7 +50,7 @@ export default function NightButton() {
     useEffect(() => {
 
         //loacl storage so when the user re-enters the website can stay on the same mode.
-        var displayMode = localStorage.getItem("mode");
+        var displayMode = localStorage.getItem("kelvin-personal-site-display-mode");
         if (displayMode === null) {
             changeDisplayMode("light")
         } else if (displayMode === "light") {

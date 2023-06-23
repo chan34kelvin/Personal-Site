@@ -12,7 +12,7 @@ This personal site helped me won 1st place in the "Final Website Vote" at Code T
 
 I was selected from 50+ people to be 1 of the 10 presenters to present for my project during the final presentation. 
 
-# Design
+# Designs
 
 I designed this site using Figma, here is the link to my prototypes and initial sketches.
 https://www.figma.com/file/kJ0DEAWOiu9ecqE4EjC2XS/Personal_Page?type=design&node-id=0%3A1&t=3R27R0f05lUjZmcE-1

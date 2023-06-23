@@ -1,3 +1,8 @@
+# Images and Projects
+
+- projects.txt in db folder to store project data.
+- images stored within their own page folders.
+
 # Steps To Deploy
 
 - This is meant to let me remember how I deploy this.
