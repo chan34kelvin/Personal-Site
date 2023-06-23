@@ -22,7 +22,7 @@ function App() {
       <Router basename={process.env.PUBLIC_URL}>
         <PageLayout>
           <Routes>
-            <Route exact path="/" element={<Home />} />
+            <Route exact path="" element={<Home />} />
             <Route exact path="/my-projects" element={<Projects />} />
             <Route exact path="/about" element={<About />} />
             <Route element={<NotFound/>}/>
