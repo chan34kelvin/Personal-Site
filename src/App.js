@@ -18,10 +18,11 @@ function App() {
 
   return (
     <div className="App">
+      {/* basename = my github url, so everything gonna be githubname.io/Personal-Site/etc. */}
       <Router basename={process.env.PUBLIC_URL}>
         <PageLayout>
           <Routes>
-            <Route exact path="" element={<Home />} />
+            <Route exact path="/" element={<Home />} />
             <Route exact path="/my-projects" element={<Projects />} />
             <Route exact path="/about" element={<About />} />
             <Route element={<NotFound/>}/>

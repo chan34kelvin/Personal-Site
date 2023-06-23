@@ -10,7 +10,8 @@ export default function Home() {
 
     return (
         <>
-            <HexagonImage imgSrc={"./images/home/pic-of-kelvin-1.jpg"}/>
+            {/* have to take from personal-site because the url rn is base/Personal-site which the pathing doesnt start with /Personal-Site/ so have to add that in. Only for this page. */}
+            <HexagonImage imgSrc={"./Personal-Site/images/home/pic-of-kelvin-1.jpg"}/>
             <div className="home-content">
                 <div className="d-flex flex-column gap-3 gap-xl-4">
                     <div className="text-title">
