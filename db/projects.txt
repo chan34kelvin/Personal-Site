@@ -8,9 +8,9 @@
             "link": "https://github.com/pterofighter-s-organization/apptracker"
         },
         {
-            "title": "Questionare Survey",
+            "title": "Data Questionare",
             "type": "form",
-            "description": "a survey form using HTML and CSS with Google reCAPTCHA integration for security. The form features real-time error checking and provides a summary of user-entered information. It also utilizes Google Maps to accurately display the inputted location.",
+            "description": "a survey form using HTML and CSS with Google reCAPTCHA integration for security. The form features real-time error checking and provides a summary of user-entered information. It also utilizes Google Maps to accurately display the inputted location. Additonally, it uses Github Secrets to store API_KEYs",
             "link": "https://kelvinchingkiuchan.github.io/CSC642-848-Fall-2021-Individual_Assignment/"  
         },
         {
