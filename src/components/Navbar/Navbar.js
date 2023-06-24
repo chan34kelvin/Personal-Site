@@ -11,7 +11,7 @@ export default function Navbar() {
     const iconSize = ""
 
     return (
-        <nav className="navbar pt-4 px-3 pe-4">
+        <nav className="navbar pt-4 px-xl-3 pe-xl-4">
             <div className="d-flex flex-row gap-3 w-100">
                 <Link 
                     to="/" 

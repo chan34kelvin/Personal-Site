@@ -7,7 +7,8 @@
     }
 
     .text-title {
-        font-size: calc(0.75rem + 2.25vw) !important;
+        /* as font size increases, the diff increases from 0.75 to 1.5 to *2 of the prev value. */
+        font-size: calc(0.75rem + 2.25vw) !important; 
         margin-left: -0.5%;
     }
 

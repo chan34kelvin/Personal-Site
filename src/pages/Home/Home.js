@@ -8,15 +8,10 @@ import "./Home.css"
 
 export default function Home() {
 
-    //inside github pages, the url has a trailing slash, so the path starts from Personal-Site
-    //in localhost, the url doens't have a slash at the end, so the path starts from localhost
-    const currentUrlElements = window.location.href.split("/")
-    const imagePathStarter = (currentUrlElements[currentUrlElements.length - 2] === "Personal-Site") ? "." : "./Personal-Site"
-
     return (
         <>
             {/* have to take from personal-site because the url rn is base/Personal-site which the pathing doesnt start with /Personal-Site/ so have to add that in. Only for this page. */}
-            <HexagonImage imgSrc={imagePathStarter + "/images/home/pic-of-kelvin-1.jpg"} />
+            <HexagonImage imgSrc={`${process.env.PUBLIC_URL}/images/home/pic-of-kelvin-1.jpg`} />
             <div className="home-content">
                 <div className="d-flex flex-column gap-3 gap-xl-4">
                     <div className="text-title">
