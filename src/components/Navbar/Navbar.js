@@ -12,7 +12,8 @@ export default function Navbar() {
 
     return (
         <nav className="navbar pt-4 px-xl-3 pe-xl-4">
-            <div className="d-flex flex-row gap-3 w-100">
+            {/* d-flex flex-row gap-3 w-100 */}
+            <div className="navbar-buttons">
                 <Link 
                     to="/" 
                     className="icon"

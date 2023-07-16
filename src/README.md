@@ -7,3 +7,7 @@ npm install --save-dev @babel/plugin-proposal-private-property-in-object
 npm install material-icons@latest
 npm install gh-pages --save-dev
 ```
+
+# TODO (Only for me to easily access the doc)
+
+https://docs.google.com/document/d/1VLuMIt17UpGEHsBrhelPdzOfMA5KhGGroKQ60rdmvvs/edit#heading=h.gvlyyjhs8ap

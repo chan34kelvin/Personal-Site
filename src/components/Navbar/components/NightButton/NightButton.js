@@ -30,33 +30,49 @@ export default function NightButton() {
     // --color-red: #da2c43;
     // --color-gray: #e5e4e2;
 
-    const changeDisplayMode = useCallback((mode) => {
+    const changeDisplayMode = useCallback((mode, isStoreData) => {
 
         if (mode === "light") {
             lightModeColors.forEach((values, keys) => {
                 document.documentElement.style.setProperty(keys, values);
             });
-            localStorage.setItem("kelvin-personal-site-display-mode", "light")
+            if(isStoreData){
+                //only store when told to, because if is decided by time then it isn't the person's preference that he wants this mode.
+                sessionStorage.setItem("kelvin-personal-site-display-mode", "light")
+            }
             setNightMode(false)
         } else if (mode === "night") {
             darkModeColors.forEach((values, keys) => {
                 document.documentElement.style.setProperty(keys, values);
             });
-            localStorage.setItem("kelvin-personal-site-display-mode", "night")
+            if(isStoreData){
+                sessionStorage.setItem("kelvin-personal-site-display-mode", "night")
+            }
             setNightMode(true)
         }
     }, [darkModeColors, lightModeColors])
 
     useEffect(() => {
 
-        //loacl storage so when the user re-enters the website can stay on the same mode.
-        var displayMode = localStorage.getItem("kelvin-personal-site-display-mode");
+        //session storage so when the user go backs into this site can stay in the same mode (keeping their preference).
+        //local storage stays too long because you have to manually clean the cache to delete the preference.
+        var displayMode = sessionStorage.getItem("kelvin-personal-site-display-mode");
         if (displayMode === null) {
-            changeDisplayMode("light")
+            // changeDisplayMode("light")
+            const currentTime = new Date(); //this works in firefox and every other browsers
+            const currentHour = currentTime.getHours();
+
+            if (currentHour >= 18 || currentHour < 6) {
+                //night time
+                changeDisplayMode("night", false); //mode, is store data inside local storage for preferences?
+            } else {
+                //day time
+                changeDisplayMode("light", false);
+            }
         } else if (displayMode === "light") {
-            changeDisplayMode("light")
+            changeDisplayMode("light", true)
         } else {
-            changeDisplayMode("night");
+            changeDisplayMode("night", true);
         }
     }, [changeDisplayMode])
 
@@ -68,7 +84,7 @@ export default function NightButton() {
                     id="day-button"
                     onClick={(e) => {
                         e.preventDefault()
-                        changeDisplayMode("light")
+                        changeDisplayMode("light", true)
                     }}
                     data-bs-toggle="tooltip" data-bs-placement="bottom" title="Toggle light mode"
                 >
@@ -82,7 +98,7 @@ export default function NightButton() {
                     id="night-button"
                     onClick={(e) => {
                         e.preventDefault()
-                        changeDisplayMode("night")
+                        changeDisplayMode("night", true)
                     }}
                     data-bs-toggle="tooltip" data-bs-placement="bottom" title="Toggle night mode"
                 >

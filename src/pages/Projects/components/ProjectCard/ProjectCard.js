@@ -10,17 +10,24 @@ export default function ProjectCard({ project }) {
         db: "dataset",
         system: "computer",
         website: "web",
+        phone: "phone_iphone",
     }
 
     return (
-        <a className="project-card" href={project.link}>
+        <a 
+            className="project-card" 
+            href={project.link} 
+            target="_blank" rel="noopener noreferrer"
+        >
+            {/* target="_blank" rel="noreferrer" - this is used for security reasons. This combination opens the project on another tab instead. */}
             <div className="card-icon-exterior">
                 <span className="material-icons-outlined card-icon">
                     {icons[project.type]}
                 </span>
             </div>
             <div className="card-content flex-grow-1 text-start">
-                <div className="card-content-textbox px-3 py-2 py-md-3 px-md-4 px-xxl-5">
+            {/* px-3 py-2 py-md-3 px-md-4 px-xxl-5 */}
+                <div className="card-content-textbox">
                     <b>{project.title},</b> {project.description}
                 </div>
             </div>

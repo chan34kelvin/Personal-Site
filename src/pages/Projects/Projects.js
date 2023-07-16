@@ -38,16 +38,16 @@ export default function Projects() {
 
     return (
         <>
-            <HexagonImage imgSrc={"./images/projects/my-github-repos.png"}/>
+            <HexagonImage imgSrc={"./images/projects/my-github-projects.png"}/>
             <div className="projects-content">
-                <div className="d-flex flex-column gap-3 gap-xl-4">
+                <div className="projects-header-section">
                     <div className="text-title">
                         My Projects
                     </div>
                     <hr className="line-block" />
                 </div>
                 {/* padding to make sure there is space to show the last card */}
-                <div className="project-cards-section d-flex flex-column gap-3 gap-xxl-4">
+                <div className="project-cards-section">
                     {projectData.projects.map((project) => {
                         return (
                             <ProjectCard project={project} />

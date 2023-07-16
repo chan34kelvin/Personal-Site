@@ -6,6 +6,10 @@
         width: 100%;
     }
 
+    .navbar-buttons{
+        gap: calc(0.1rem + 0.6vw);
+    }
+
     .material-icons-outlined {
         /* changing icon size with important to override the original */
         font-size: calc(0.5rem + 1.25vw) !important;
@@ -16,6 +20,10 @@
 @media (max-width: 1200px) {
     .navbar {
         position: relative;
+    }
+
+    .navbar-buttons{
+        gap: calc(0.5rem + 1vw);
     }
 
     .material-icons-outlined {
@@ -45,4 +53,10 @@
 
 .icon-interior:hover {
     color: transparent;
+}
+
+.navbar-buttons{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
 }

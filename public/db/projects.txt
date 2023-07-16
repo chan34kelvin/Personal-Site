@@ -4,26 +4,68 @@
         {
             "title": "Job Tracker",
             "type": "db",
-            "description": "a tool that helps manage all job applications in one place. It simplifies the process of keeping track of the companies and positions you've applied to, as well as the status of each application. You can also use the app to manage tasks and take notes for each job application, making it easier to follow up with employers and future interviews.",
+            "description": "a full stack web application that helps manage all job applications in one place. It simplifies the process of keeping track of the companies and positions you've applied to, as well as the status of each application. You can also use the app to manage tasks and take notes for each job application, making it easier to follow up with employers and future interviews.",
             "link": "https://github.com/pterofighter-s-organization/apptracker"
-        },
-        {
-            "title": "Data Questionare",
-            "type": "form",
-            "description": "a survey form using HTML and CSS with Google reCAPTCHA integration for security. The form features real-time error checking and provides a summary of user-entered information. It also utilizes Google Maps to accurately display the inputted location. Additonally, it uses Github Secrets to store API_KEYs",
-            "link": "https://kelvinchingkiuchan.github.io/CSC642-848-Fall-2021-Individual_Assignment/"  
         },
         {
             "title": "Blog Database",
             "type": "db",
-            "description": "a database to store and manage blogs, allowing users to create text-based entries with topics, images, and content. Internet viewers can access and read these blogs. Users can engage in text-based communication and leave comments on blogs.",
+            "description": "a database schema created using MySQL workbench to store and manage blogs, allowing users to create text-based entries with topics, images, and content. Internet viewers can access and read these blogs. Users can engage in text-based communication and leave comments on blogs.",
             "link": "https://github.com/chan34kelvin/CSC_675-Blog_Database"
+        },
+        {
+            "title": "HCI Team-4 4List",
+            "type": "website",
+            "description": "an advertisement website based off Craigslist built in HTML, Bootstrap CSS, and Figma strives to give users a better platform to buy, sell products or services in a wide range of departments, discussion forums, search for jobs, housing or promote community events. With these features, our site aims at giving users improved usability.",
+            "link": "https://github.com/chan34kelvin/HCI-Team-4-4list"
+        },
+        {
+            "title": "Tank War Game",
+            "type": "game",
+            "description": "a 2D game made using Java with a Swing GUI and follows Model-View-Controller (MVC) pattern. It's a one-on-one tank battle on a split-screen with real-time update minimap. Features power-ups, and breakable walls, providing potential tactical gameplay.",
+            "link": "https://github.com/chan34kelvin/Tank_Game-Project"
+        },
+        {
+            "title": "Colors About Site",
+            "type": "website",
+            "description": "The project features an eye-catching website made in HTML, CSS and JS that presents facts about the seven rainbow colors. With a sleek design and interactive components using transform, animation and transitions, it aim to provide an engaging user experience, encouraging visitors to explore and navigate the rainbow colors with curiosity.",
+            "link": "https://github.com/chan34kelvin/Rainbow-Colors-Facts-Site"
+        },
+        {
+            "title": "Mondrian Art Site",
+            "type": "website",
+            "description": "This project is a website created in HTML, CSS and JS to offer creative ways to observe Mondrian style art, offering multiple variations and unique features like image mode, art rotation and different Mondrian patterns.",
+            "link": "https://github.com/chan34kelvin/Mondrian-Art-Site"
+        },
+        {
+            "title": "Animals About Site",
+            "type": "website",
+            "description": "This project is a website made using HTML, CSS and JS that brief introduce animals in a friendly and visually appealing way. It utilizes creative UI elements, such as special fonts, captivating images, and attention-grabbing colors, to highlight important details.",
+            "link": "https://github.com/chan34kelvin/Animals-About-Site"
+        },
+        {
+            "title": "Target Store Listings App",
+            "type": "phone",
+            "description": "is an iOS application developed to efficiently track product order pickups at a Target store based on the provided nearest zip code. It was implemented with Storyboard, UIKit, and Swift in Xcode.",
+            "link": "https://github.com/chan34kelvin/CSC690_StoreListings"
+        },
+        {
+            "title": "Data Questionare",
+            "type": "form",
+            "description": "a survey form using HTML and CSS with Google reCAPTCHA integration for security. The form features real-time error checking and provides a summary of user-entered information. It also utilizes Google Maps to accurately display the inputted location. Additonally, it uses Github Secrets to store important API_KEYs for security.",
+            "link": "https://github.com/chan34kelvin/CSC642-Questionnaire_Assignment"  
         },
         {
             "title": "File System",
             "type": "system",
             "description": "a mimic linux file system built in C that provides a simple terminal interface with basic functions. These functions include the ability to read and write files, create files and folders, delete and move folders within the file system's tree structure.",
             "link": "https://github.com/chan34kelvin/CSC415_FileSystem"
+        },
+        {
+            "title": "Kelvin's Personal Site",
+            "type": "website",
+            "description": "This award-winning portfolio website, developed with HTML, CSS, and React JS, showcases my projects, 'About Me' section, and links to my GitHub and LinkedIn profiles. It incorporates a night mode for improved readability and emphasizes clean and streamlined information by linking to my resume, GitHub, LinkedIn, and project details, without overwhelming the site.",
+            "link": "https://github.com/chan34kelvin/Personal-Site"
         }
     ]
 }

@@ -1,38 +1,52 @@
 @media(min-width: 1200px) {
-    .card-icon-exterior{
+
+    /* project card over 1200px width relies less on screen width so only +0.5 */
+    .card-icon-exterior {
         border: 0.25vw solid var(--color-red);
     }
 
-    .card-icon{
-        font-size: calc(1.25rem + 2vw) !important;
-        padding: calc(0.5rem + 1.25vw) !important;
+    .card-icon {
+        font-size: calc(1.25rem + 1.75vw) !important;
+        padding: calc(0.5rem + 1vw) !important;
     }
 
-    .project-card{
-        height: calc(5rem + 5.75vw);
+    .card-content {
+        /* this is based on how much explanation usually typed for a project card */
+        min-height: calc(5rem + 5.5vw);
     }
 
-    .card-content-textbox{
-        font-size: calc(0.05rem + 0.85vw) !important;
+    .card-content-textbox {
+        /* overflow-y: scroll;
+        overflow-x: hidden; */
+        /* for firefox */
+        scrollbar-width: thin;
+        /* second arg for showing color of the gutters */
+        scrollbar-color: var(--color-red) transparent;
+        font-size: calc(0.2rem + 0.7vw) !important;
+        /* padding: y x */
+        padding: calc(0.15rem + 0.65vw) calc(0.35rem + 0.85vw);
+        height: 92.5%;
     }
 }
 
 @media(max-width: 1200px) {
-    .card-icon-exterior{
+    .card-icon-exterior {
         border: 0.25rem solid var(--color-red);
     }
 
-    .card-icon{
-        font-size: calc(1.25rem + 2vw) !important;
-        padding: calc(0.5rem + 1.25vw) !important;
+    .card-icon {
+        /* this relies more on the change of screen width */
+        font-size: calc(1rem + 2.25vw) !important;
+        padding: calc(0.25rem + 1.5vw) !important;
     }
 
-    .project-card{
-        height: calc(7.5rem + 8.25vw);
+    .card-content {
+        min-height: calc(7.5rem + 8.25vw);
     }
 
-    .card-content-textbox{
+    .card-content-textbox {
         font-size: calc(0.5rem + 1.25vw);
+        padding: calc(0.25rem + 1vw) calc(0.35rem + 1.1vw);
     }
 }
 
@@ -44,11 +58,11 @@
     text-decoration: none;
 }
 
-.project-card:hover > .card-icon-exterior{
+.project-card:hover>.card-icon-exterior {
     background-color: var(--color-light);
 }
 
-.project-card:hover > .card-icon-exterior > .card-icon {
+.project-card:hover>.card-icon-exterior>.card-icon {
     color: var(--color-dark);
 }
 
@@ -68,14 +82,14 @@
 }
 
 .card-content-textbox {
-    overflow-y: scroll;
-    overflow-x: hidden;
-    /* for firefox */
-    scrollbar-width: thin;
-    /* second arg for showing color of the gutters */
-    scrollbar-color: var(--color-red) transparent; 
+    /* this is to make sure every textbox is same height and truncate text at the end with ...  text truncate only work for 1 line text, and this works for multiline */
+    /* display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis; */
     color: var(--color-dark-fixed);
-    height: 92.5%;
+    /* height: 92.5%; */
 }
 
 .card-content-textbox::-webkit-scrollbar-track {

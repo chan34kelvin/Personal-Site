@@ -9,7 +9,7 @@ export default function About() {
 
     return (
         <>
-            <HexagonImage imgSrc={"./images/about/pic-of-kelvin-4.png"}/>
+            <HexagonImage imgSrc={"./images/about/pic-of-kelvin-4.png"} />
             <div className="about-content">
                 <div className="d-flex flex-column gap-3 gap-xl-4">
                     {/* display-3 only for mobile versions */}
@@ -25,6 +25,7 @@ export default function About() {
                 </div>
                 {/* github, linkedin icons on bootstrap icons */}
                 <div className="d-flex flex-wrap gap-3">
+                    {/* target="_blank" rel="noopener noreferrer" */}
                     <a href="https://github.com/chan34kelvin" className="contact-icon">
                         <i
                             className="bi bi-github contact-icon-interior"
