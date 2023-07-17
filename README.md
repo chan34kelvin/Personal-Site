@@ -17,7 +17,7 @@ I designed this site using Figma, here is the link to my high fidelity prototype
 
 https://www.figma.com/file/kJ0DEAWOiu9ecqE4EjC2XS/Personal_Page?type=design&node-id=0%3A1&t=3R27R0f05lUjZmcE-1
 
-# References
+# Resources
 
 This helped me in using browser router instead of hash router in deploying this.
 
