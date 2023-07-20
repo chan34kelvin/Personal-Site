@@ -36,9 +36,11 @@ export default function Projects() {
         return <>Loading Error... Please refresh the page.</>
     }
 
+    const image = "./images/projects/my-github-projects.png"
+
     return (
         <>
-            <HexagonImage imgSrc={"./images/projects/my-github-projects.png"}/>
+            <HexagonImage imgSrc={image} modalId={"project-image"}/>
             <div className="projects-content">
                 <div className="projects-header-section">
                     <div className="text-title">

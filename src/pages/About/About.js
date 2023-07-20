@@ -7,9 +7,11 @@ import "./About.css";
 
 export default function About() {
 
+    const image = "./images/about/pic-of-kelvin-4.png"
+
     return (
         <>
-            <HexagonImage imgSrc={"./images/about/pic-of-kelvin-4.png"} />
+            <HexagonImage imgSrc={image} modalId={"about-image"} />
             <div className="about-content">
                 <div className="d-flex flex-column gap-3 gap-xl-4">
                     {/* display-3 only for mobile versions */}

@@ -1,0 +1,12 @@
+
+@media (min-width: 1200px){
+    .image-magnified {
+        transform: scale(2.5);
+    }
+}
+
+@media (max-width: 1200px){
+    .image-magnified {
+        transform: scale(1.5);
+    }
+}

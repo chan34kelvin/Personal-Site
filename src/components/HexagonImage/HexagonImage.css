@@ -107,6 +107,7 @@
     image-rendering: smooth; /*smoothing colors on the image */
     z-index: 1;
     opacity: 0.95;
+    cursor: pointer; /* to make the image look clickable */
 }
 
 @keyframes rotate-hexagon {
