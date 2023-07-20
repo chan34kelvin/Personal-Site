@@ -30,7 +30,7 @@
 
     .projects-content {
         position: relative;
-        width: 80vw;
+        width: 85vw;
         max-width: 750px;
         gap: calc(1.25rem + 2vw);
     }
