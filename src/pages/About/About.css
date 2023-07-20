@@ -8,17 +8,17 @@
         /* this keeps the element centered, fixed keeps it centered regardless of scrolling */
         /* position: fixed;
         transform: translate(-50%, -50%); */
-        gap: calc(1.5rem + 2.25vw);
+        gap: calc(0.25rem + 3vw);
         /* gap: 3vw; */
         width: 35%;
     }
 
     .about-description {
-        font-size: calc(0.25rem + 1vw) !important;
+        font-size: calc(0.05rem + 1.2vw) !important;
     }
 
     .contact-icon-interior {
-        font-size: calc(0.25rem + 1vw) !important;
+        font-size: calc(0.05rem + 1.25vw) !important;
         padding: calc(0.05rem + 0.65vw) calc(0.1rem + 0.85vw);
     }
 

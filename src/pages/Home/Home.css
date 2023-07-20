@@ -5,7 +5,7 @@
         left: 55%;
         transform: translate(0%, -50%);
         width: 40%;
-        gap: calc(2.25rem + 3vw);
+        gap: calc(0.25rem + 5vw);
     }
 }
 

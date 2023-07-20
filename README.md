@@ -2,7 +2,7 @@
 
 Visit my site: https://chan34kelvin.github.io/Personal-Site/
 
-This award-winning portfolio website, developed with HTML, CSS, and React JS, showcases my projects, 'About Me' section, and links to my GitHub and LinkedIn profiles. It incorporates a night mode for improved readability and emphasizes clean and streamlined information by linking to my resume, GitHub, LinkedIn, and project details, without overwhelming the site.
+This award-winning portfolio website, developed with HTML, CSS, and React JS, showcase my projects and an 'About Me' section. It incorporates a night mode for improved readability and provides streamlined information by linking to my resume and project details, as well as my professional profiles on GitHub and LinkedIn.
 
 # Awards
 

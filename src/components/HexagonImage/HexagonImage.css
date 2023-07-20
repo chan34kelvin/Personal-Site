@@ -103,7 +103,8 @@
 
 .hexagon-img {
     object-fit: cover;
-    image-rendering: crisp-edges;
+    /* image-resolution: 300dpi; */
+    image-rendering: smooth; /*smoothing colors on the image */
     z-index: 1;
     opacity: 0.95;
 }
