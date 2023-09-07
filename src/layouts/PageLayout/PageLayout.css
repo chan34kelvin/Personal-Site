@@ -33,8 +33,14 @@
     background-size: cover;
 }
 
-.page-content{
+.page-bg-color{
     background-color: var(--color-transparent-bg);
     min-height: 100vh;
     width: 100%;
+}
+
+.page-content{
+    /* landing animation */
+    animation-duration: 2000ms;
+    animation-name: fadeIn;
 }

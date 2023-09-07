@@ -9,9 +9,11 @@ export default function PageLayout({ children }) {
 
     return (
         <div className="page-bg">
-            <div className="page-content">
-                <Navbar />
-                {children}
+            <div className="page-bg-color">
+                <div className="page-content">
+                    <Navbar />
+                    {children}
+                </div>
             </div>
         </div>
     )

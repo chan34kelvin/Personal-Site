@@ -8,9 +8,16 @@
         /* this keeps the element centered, fixed keeps it centered regardless of scrolling */
         /* position: fixed;
         transform: translate(-50%, -50%); */
-        gap: calc(0.25rem + 3vw);
+        /* gap: calc(0.25rem + 3vw); */
+        gap: calc(0.15rem + 3.25vw);
         /* gap: 3vw; */
         width: 35%;
+    }
+
+    .about-content-contacts{
+        display: flex;
+        flex-direction: row;
+        gap: calc(0.15rem + 0.5vw);
     }
 
     .about-description {
@@ -18,7 +25,7 @@
     }
 
     .contact-icon-interior {
-        font-size: calc(0.05rem + 1.25vw) !important;
+        font-size: calc(0.25rem + 1.25vw) !important;
         padding: calc(0.05rem + 0.65vw) calc(0.1rem + 0.85vw);
     }
 
@@ -31,7 +38,7 @@
     .about-content {
         position: relative;
         width: 80vw;
-        max-width: 750px;
+        max-width: 750px; /* old is 750px */
         align-items: center;
         gap: calc(1.5rem + 2.25vw);
         padding-bottom: 5%;
@@ -44,13 +51,21 @@
 
     .contact-icon-interior {
         font-size: calc(1rem + 1.75vw) !important;
-        padding: calc(0.25rem + 1vw) calc(0.5rem + 1.25vw);
+        padding: calc(0.5rem + 1vw) calc(0.75rem + 1.25vw);
+    }
+
+    .about-content-contacts{
+        display: flex;
+        flex-direction: row;
+        gap: calc(0.25rem + 1.25vw);
     }
 }
 
 .about-content {
     display: flex;
     flex-direction: column;
+    animation-duration: var(--landing-animation-duration);
+    animation-name: var(--landing-animation);
 }
 
 .about-description {
@@ -72,7 +87,7 @@
 
 .contact-icon-interior {
     color: var(--color-dark);
-    border: 2.5px solid var(--color-dark);
+    border: calc(0.05rem + 0.075vw) solid var(--color-dark);
     cursor: pointer;
     border-radius: 50%;
     transition-duration: 0.25s;

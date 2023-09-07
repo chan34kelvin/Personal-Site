@@ -1,14 +1,13 @@
-import { Link } from "react-router-dom"
+import { Link } from "react-router-dom";
 
 //components
-import { HexagonImage } from "../../components/HexagonImage"
+import { HexagonImage } from "../../components/HexagonImage";
 
 //css
-import "./Home.css"
+import "./Home.css";
 
 export default function Home() {
-
-    const image = `${process.env.PUBLIC_URL}/images/home/pic-of-kelvin-1.jpg`
+    const image = `${process.env.PUBLIC_URL}/images/home/pic-of-kelvin-1.jpg`;
 
     return (
         <>
@@ -16,20 +15,14 @@ export default function Home() {
             <HexagonImage imgSrc={image} modalId={"home-image"} />
             <div className="home-content">
                 <div className="d-flex flex-column gap-3 gap-xl-4">
-                    <div className="text-title">
-                        Kelvin Chan
-                    </div>
+                    <div className="text-title">Kelvin Chan</div>
                     <hr className="line-block" />
                 </div>
                 <div className="d-flex flex-column gap-3 gap-xl-4">
-                    <div className="text-subtitle">
-                        Web Developer
-                    </div>
-                    <div className="text-subtitle">
-                        San Francisco, CA.
-                    </div>
+                    <div className="text-subtitle">Web Developer</div>
+                    <div className="text-subtitle">San Francisco, CA.</div>
                 </div>
-                <div className="d-flex flex-column gap-3 gap-xl-4">
+                <div className="d-flex flex-column gap-3 gap-xl-4 home-content-buttons">
                     <Link className="primary button" to="/about">
                         About me
                     </Link>
@@ -39,5 +32,5 @@ export default function Home() {
                 </div>
             </div>
         </>
-    )
+    );
 }

@@ -1,5 +1,5 @@
 @media (min-width: 1200px) {
-    .home-content{
+    .home-content {
         position: fixed;
         top: 50%;
         left: 55%;
@@ -10,7 +10,7 @@
 }
 
 @media(max-width: 1200px) {
-    .home-content{
+    .home-content {
         position: relative;
         width: 85vw;
         max-width: 750px;
@@ -20,7 +20,9 @@
     }
 }
 
-.home-content{
+.home-content {
     display: flex;
     flex-direction: column;
+    animation-duration: var(--landing-animation-duration);
+    animation-name: var(--landing-animation);
 }

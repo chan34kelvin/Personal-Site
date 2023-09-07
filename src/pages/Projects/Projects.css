@@ -47,6 +47,8 @@
 .projects-content{
     display: flex;
     flex-direction: column;
+    animation-duration: var(--landing-animation-duration);
+    animation-name: var(--landing-animation);
 }
 
 .projects-header-section{

@@ -21,7 +21,7 @@
 
     /* buttons */
     .button {
-        font-size: calc(0.2rem + 0.95vw);
+        font-size: calc(0.3rem + 0.95vw); /* changed from 0.2 starting font to 0.3 */
         padding: calc(0.5rem + 1.25vw);
         width: 55%;
     }
@@ -45,8 +45,8 @@
     .button {
         font-size: calc(0.85rem + 1.35vw);
         padding: calc(1.325rem + 0.9vw) 1rem;
-        width: 450px;
-        max-width: 75vw;
+        width: 375px;
+        max-width: 85vw;
     }
 }
 
@@ -59,6 +59,8 @@
     --color-gray: #e5e4e2;
     --color-transparent-bg: transparent;
     --button-border: 0.25vw;
+    --landing-animation-duration: 1750ms;
+    --landing-animation: fadeIn;
 }
 
 .line-block {
@@ -122,4 +124,14 @@
     border: var(--button-border) solid transparent;
     background-color: transparent;
     color: var(--color-dark);
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
 }

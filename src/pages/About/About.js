@@ -26,7 +26,7 @@ export default function About() {
                     Outside of work, I enjoy outdoor activities like basketball, soccer, and gaming with friends on Valorant and League of Legends.
                 </div>
                 {/* github, linkedin icons on bootstrap icons */}
-                <div className="d-flex flex-wrap gap-3">
+                <div className="about-content-contacts">
                     {/* target="_blank" rel="noopener noreferrer" */}
                     <a href="https://github.com/chan34kelvin" className="contact-icon">
                         <i

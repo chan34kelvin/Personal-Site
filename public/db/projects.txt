@@ -4,13 +4,13 @@
         {
             "title": "Job Tracker",
             "type": "db",
-            "description": "a full stack web application that helps manage all job applications in one place. It simplifies the process of keeping track of the companies and positions you've applied to, as well as the status of each application. You can also use the app to manage tasks and take notes for each job application, making it easier to follow up with employers and future interviews.",
+            "description": "A comprehensive web application designed to streamline job application management. It provides a centralized platform to effortlessly track companies, positions, and application statuses. The app also offers task management and note-taking features, facilitating effective follow-ups with employers and interviews.",
             "link": "https://github.com/pterofighter-s-organization/apptracker"
         },
         {
             "title": "Black Excellence Website",
             "type": "website",
-            "description": "Hired by Code Tenderloin to create a website for Citizen Film and SF NAACP, emphasizing Black Excellence and fundraising for a documentary. Collaborated with the hiring team to design a reflective theme and developed a user-friendly content management system. After starting with 6 supporters, it increased to 14 and successfully raised funds for the cause.",
+            "description": "Hired by Code Tenderloin to create a website for Citizen Film and SF NAACP, highlighting Black Excellence and raising funds for a documentary. Collaborated with the team to design a reflective theme and developed a user-friendly content management system. Started with 6 supporters, grew to 14, and successfully raised funds for the cause.",
             "link": "https://www.blackinnovatorssf.org/"
         },
         {
@@ -22,7 +22,7 @@
         {
             "title": "HCI Team-4 4List",
             "type": "website",
-            "description": "a team-built advertisement website based off Craigslist built in HTML, Bootstrap CSS, and Figma strives to give users a better platform to buy, sell products or services in a wide range of departments, discussion forums, search for jobs, housing or promote community events. With these features, our site aims at giving users improved usability.",
+            "description": "a team-developed advertisement website to mimic Craigslist, utilizing HTML, Bootstrap CSS, and Figma. Significantly enhanced user experience for buying, selling, job searching, housing, and community events. Received positive feedback for its user-friendly interface and streamlined design.",
             "link": "https://github.com/chan34kelvin/HCI-Team-4-4list"
         },
         {

@@ -27,10 +27,10 @@
 
 @media (max-width: 1200px) {
     :root {
-        --hexagon-border-thickness:  calc(0.25rem + 0.25vw);
+        --hexagon-border-thickness:  calc(0.1rem + 0.35vw);
         --hexagon-area: 70vw;
         --hexagon-padding: calc(var(--hexagon-border-thickness) * 1);
-        --hexagon-max-area: 450px;
+        --hexagon-max-area: 350px; /*old is 450px*/
     }
 
     .hexagon-axis {
@@ -64,7 +64,8 @@
             0% 75%,
             0% 25%);
     clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
-    animation-duration: 1s;
+    animation-duration: 0.75s;
+    /* animation-delay: 250ms; */
     animation-name: rotate-hexagon;
 }
 
@@ -104,7 +105,7 @@
 .hexagon-img {
     object-fit: cover;
     /* image-resolution: 300dpi; */
-    image-rendering: smooth; /*smoothing colors on the image */
+    /* image-rendering: smooth; doesnt work*/
     z-index: 1;
     opacity: 0.95;
     cursor: pointer; /* to make the image look clickable */
@@ -112,7 +113,7 @@
 
 @keyframes rotate-hexagon {
     from {
-        transform: rotateY(180deg);
+        transform: rotateY(120deg);
     }
 
     to {
