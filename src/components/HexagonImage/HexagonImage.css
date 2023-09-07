@@ -64,7 +64,7 @@
             0% 75%,
             0% 25%);
     clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
-    animation-duration: 0.75s;
+    animation-duration: 1s;
     /* animation-delay: 250ms; */
     animation-name: rotate-hexagon;
 }
@@ -113,7 +113,7 @@
 
 @keyframes rotate-hexagon {
     from {
-        transform: rotateY(120deg);
+        transform: rotateY(180deg);
     }
 
     to {

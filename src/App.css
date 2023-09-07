@@ -59,7 +59,7 @@
     --color-gray: #e5e4e2;
     --color-transparent-bg: transparent;
     --button-border: 0.25vw;
-    --landing-animation-duration: 1750ms;
+    --landing-animation-duration: 1500ms;
     --landing-animation: fadeIn;
 }
 
