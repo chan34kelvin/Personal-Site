@@ -44,6 +44,7 @@
   },
   "devDependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "@babel/traverse": "^7.23.2",
     "@types/jquery": "^3.5.18",
     "gh-pages": "^5.0.0"
   }
