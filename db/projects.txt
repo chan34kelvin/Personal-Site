@@ -1,5 +1,14 @@
 {
-    "image": "./image",
+    "images": [
+        "./images/projects/Black-Excellence-Site.png",
+        "./images/projects/Dashboard_(Top).png",
+        "./images/projects/Dashboard_(Bottom).png",
+        "./images/projects/4list-main-page.png",
+        "./images/projects/4list-events.png",
+        "./images/projects/Mondrian-Art-Site.png",
+        "./images/projects/Rainbow-Site.png",
+        "./images/projects/Animals-Site.png"
+    ],
     "projects": [
         {
             "title": "Job Tracker",
