@@ -1,0 +1,91 @@
+{
+    "images": [
+        "./images/projects/Black-Excellence-Site.png",
+        "./images/projects/Dashboard_(Top).png",
+        "./images/projects/Dashboard_(Bottom).png",
+        "./images/projects/4list-main-page.png",
+        "./images/projects/4list-events.png",
+        "./images/projects/Tank-Game.png",
+        "./images/projects/Blog_Database-ER_Diagram.png",
+        "./images/projects/Mondrian-Art-Site.png",
+        "./images/projects/Rainbow-Site.png",
+        "./images/projects/Animals-Site.png"
+    ],
+    "projects": [
+        {
+            "title": "Job Application Tracker",
+            "type": "db",
+            "description": "a job application management platform built with task management and note-taking features. Utilized Single Page Application (SPA) for seamless access and followed an agile approach for flexible and iterative development. Tech stack: Figma, React JS, Axios, MongoDB/Djongo, Django REST Framework, Postman, and Git.",
+            "link": "https://github.com/pterofighter-s-organization/apptracker"
+        },
+        {
+            "title": "Black Excellence Website",
+            "type": "website",
+            "description": "hired by Code Tenderloin to design a user-friendly, fundraising website for Citizen Film and SF NAACP to help them promote Black Excellence. Post-launch, we witnessed a significant online engagement within the African American community, resulting in a supporter growth from 6 to 14 in just six months.",
+            "link": "https://www.blackinnovatorssf.org/"
+        },
+        {
+            "title": "Blog Database",
+            "type": "db",
+            "description": "a blog database schema designed for efficient organization of topics, images, and content. Ensured data accuracy through rigorous SQL query testing, facilitating seamless blog creation, user interaction, and visitor tracking. Implemented hash functions to secure sensitive information within the database. Tech stack: SQL, MySQL Workbench.",
+            "link": "https://github.com/chan34kelvin/CSC_675-Blog_Database"
+        },
+        {
+            "title": "HCI Team-4 4List",
+            "type": "website",
+            "description": "a listing site inspired by Craiglist developed in an agile team and designed in Figma. Conducted research for personas, competitive analysis, and wireframes. Markedly improved the UX compared to Craigslist, validated by positive survey feedback on its user-friendly interface and sleek design. Tech stack: HTML, Bootstrap CSS, Figma.",
+            "link": "https://github.com/chan34kelvin/HCI-Team-4-4list"
+        },
+        {
+            "title": "Tank War Game",
+            "type": "game",
+            "description": "a Java-based 2D tank game using Swing GUI and MVC pattern. The split-screen game features real-time minimap updates, and tactical components. Applied OOP principles to achieve clear separation of concerns and modular gameplay components. Tech stack: Java, Java Swing, MVC, and Object-Oriented Programming.",
+            "link": "https://github.com/chan34kelvin/Tank_Game-Project"
+        },
+        {
+            "title": "Kelvin's Personal Site",
+            "type": "website",
+            "description": "a portfolio showcasing projects and my professional profiles. Implemented night mode for readability, and a linking to my resume pdf. The website won 1st place in Code Tenderloin final website vote. Designed for optimal display across devices, utilizing Figma for a visually appealing UI/UX. Tech stack: HTML, Bootstrap CSS, Figma, React.",
+            "link": "https://github.com/chan34kelvin/Personal-Site"
+        },
+        {
+            "title": "Colors About Site",
+            "type": "website",
+            "description": "a website made as an intern to creatively narrate rainbow colors. It features captivating fonts, interactive components, and vintage image restoration effects to enhance user experience. Utilized browser tools to reduce responsive issues by 70% and accelerate development through effective debugging. Tech stack: HTML, CSS, JS.",
+            "link": "https://github.com/chan34kelvin/Rainbow-Colors-Facts-Site"
+        },
+        {
+            "title": "Mondrian Art Site",
+            "type": "website",
+            "description": "a responsive site made in my internship to creatively explore Mondrian-style art. The site features rotation, pattern switching, and image mode to explore differently for art enthusiasts. Employed browser dev tools and debugging tools to ensure cross platform capability and keep functionality in check. Tech stack: HTML, CSS, JS.",
+            "link": "https://github.com/chan34kelvin/Mondrian-Art-Site"
+        },
+        {
+            "title": "Animals About Site",
+            "type": "website",
+            "description": "a website aimed to introduce zoo animals to kids created during my Internship. Employed special fonts, captivating images, and friendly visuals to attract target users. Implemented responsive buttons with CSS hover for enhanced user interaction and ensured mobile-friendliness through CSS media queries. Tech stack: HTML, CSS, JS.",
+            "link": "https://github.com/chan34kelvin/Animals-About-Site"
+        },
+        {
+            "title": "Target Store Listings App",
+            "type": "phone",
+            "description": "an iOS app developed for Target Store Product Tracking using Xcode. Efficiently tracking product pickups based on stores in the nearest zip code, enhancing customer experience. Employed delegation patterns for a modular app structure. Tech stack: Storyboard, UIKit, Swift, Xcode, MVC.",
+            "link": "https://github.com/chan34kelvin/CSC690_StoreListings"
+        },
+        {
+            "title": "Data Questionnaire",
+            "type": "form",
+            "description": "a secure questionnaire developed for user data collection. The form includes real-time error detection, pre-populated values for date and state fields. Enhanced data security by encrypting API keys with GitHub Secrets and integrated REcaptcha for bot preventions. Tech stack: HTML, Bootstrap CSS, Axios, Geocode, Map Marker, REcaptcha.",
+            "link": "https://github.com/chan34kelvin/CSC642-Questionnaire_Assignment"  
+        },
+        {
+            "title": "File System Project",
+            "type": "system",
+            "description": "a mimic of a Linux file system with a terminal interface on Ubuntu, managed using a makefile. Users can perform essential file operations like reading, writing, creating, deleting, and moving files and folders within the system's tree structure. It’s a practical emulation of file system operations within a Linux environment. Tech stack: C, Ubuntu, Linux.",
+            "link": "https://github.com/chan34kelvin/CSC415_FileSystem"
+        }
+    ]
+}
+
+
+
