@@ -13,7 +13,7 @@
     .material-icons-outlined {
         /* changing icon size with important to override the original */
         font-size: calc(0.5rem + 1.25vw) !important;
-        padding: calc(0.05rem + 0.55vw) !important;
+        padding: calc(0.05rem + 0.5vw) !important;
     }
 }
 
@@ -36,7 +36,6 @@
 
 .icon {
     text-decoration: none;
-    height: 5%;
     /* zindex is the stacking order */
     z-index: 1;
     cursor: pointer;
@@ -44,7 +43,7 @@
 
 .icon-interior {
     color: var(--color-light);
-    border: 2.5px solid transparent;
+    border: 0.25rem solid transparent;
     cursor: pointer;
     border-radius: 50%;
     transition-duration: 0.25s;

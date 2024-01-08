@@ -1,0 +1,45 @@
+.carousel-image {
+    max-height: 75vh;
+    object-fit: contain;
+    background-color: white;
+    width: 100%;
+}
+
+.carousel-item.active, .carousel-item-next, .carousel-item-prev {
+    display: flex !important;
+    justify-content: center;
+}
+
+.carousel-control-next,
+.carousel-control-prev
+
+/*, .carousel-indicators */
+    {
+    filter: invert(100%);
+}
+
+@media (min-width: 1200px) {
+    .modal-content {
+        transform: scale(1.25);
+    }
+}
+
+.close-modal-button {
+    position: absolute;
+    /* top: 2.5%;
+    left: 2.5%;
+    padding: 0rem 0.8rem;
+    padding-bottom: 0.1rem; */
+    top: 1%;
+    left: 1%;
+    border-style: none;
+    border-radius: 50%;
+    color: invert(100%);
+    background-color: transparent;
+    z-index: 9999;
+    font-size: 1.75rem;
+}
+
+.close-modal-button>* {
+    height: fit-content;
+}

@@ -23,9 +23,9 @@ function App() {
         <PageLayout>
           <Routes>
             <Route exact path="/" element={<Home />} />
-            <Route exact path="/my-projects" element={<Projects />} />
-            <Route exact path="/about" element={<About />} />
-            <Route element={<NotFound/>}/>
+            <Route path="/my-projects" element={<Projects />} />
+            <Route path="/about" element={<About />} />
+            <Route path="*" element={<NotFound/>}/>
           </Routes>
         </PageLayout>
       </Router>

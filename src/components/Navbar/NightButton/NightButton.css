@@ -1,0 +1,15 @@
+/* find parent icon css in navbar css file */
+
+.night-icon{
+    background-color: var(--color-dark);
+    color: var(--color-light);
+    border: 0.25rem solid var(--color-dark) !important;
+}
+
+.day-icon{
+    background-color: var(--color-light-fixed);
+    /* this color doesnt show because it is not !important and icon color will cover it. */
+    color: var(--color-dark-fixed);
+    border: 0.25rem solid var(--color-light-fixed) !important;
+}
+
