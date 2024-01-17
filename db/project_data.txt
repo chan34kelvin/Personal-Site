@@ -33,7 +33,7 @@
         {
             "title": "HCI Team-4 4List",
             "type": "website",
-            "description": "a listing site inspired by Craiglist developed in an agile team and designed in Figma. Conducted research for personas, competitive analysis, and wireframes. Markedly improved the UX compared to Craigslist, validated by positive survey feedback on its user-friendly interface and sleek design. Tech stack: HTML, Bootstrap CSS, Figma.",
+            "description": "a listing site inspired by Craiglist developed in an agile team and designed in Figma. Conducted research for personas, use cases, competitive analysis, and wireframes. Markedly improved the UX compared to Craigslist, validated by positive survey feedback on its user-friendly interface and sleek design. Tech stack: HTML, Bootstrap CSS, Figma.",
             "link": "https://github.com/chan34kelvin/HCI-Team-4-4list"
         },
         {
@@ -86,6 +86,7 @@
         }
     ]
 }
+
 
 
 
