@@ -30,7 +30,7 @@ export default function About() {
           <a href="https://github.com/chan34kelvin" className="contact-icon">
             <i className="bi bi-github contact-icon-interior"></i>
           </a>
-          <a href="/my-projects" className="contact-icon">
+          <a href="https://www.instagram.com/cuponoodle_/" className="contact-icon">
             <i className="bi bi-instagram contact-icon-interior"></i>
           </a>
         </div>
