@@ -23,6 +23,10 @@
         height: 100vh;
         background-color: var(--color-dark);
     }
+
+    .sliders{
+        width: calc(var(--hexagon-area) + 5rem);
+    }
 }
 
 @media (max-width: 1200px) {
@@ -44,6 +48,10 @@
 
     .hexagon-display {
         position: relative;
+    }
+
+    .sliders{
+        width: calc(100% + 5rem);
     }
 }
 
@@ -127,7 +135,6 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    width: calc(var(--hexagon-area) + 5rem);
     transform: translate(-50%, -50%);
     z-index: 1;
     display: flex;

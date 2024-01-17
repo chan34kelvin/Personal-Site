@@ -15,7 +15,7 @@ This personal site helped me won 1st place in the "Final Website Vote" competiti
 
 # Designs
 
-I designed this site using Figma, here is the link to my high fidelity prototypes and initial sketches.
+I designed this site using Figma, here is the link to my UI mockups and wire flows.
 
 https://www.figma.com/file/kJ0DEAWOiu9ecqE4EjC2XS/Personal_Page?type=design&node-id=0%3A1&t=3R27R0f05lUjZmcE-1
 
