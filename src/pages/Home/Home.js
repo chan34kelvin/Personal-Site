@@ -20,7 +20,7 @@ export default function Home() {
         </div>
         <div className="d-flex flex-column gap-3 gap-xl-4">
           <div className="text-subtitle">Web Developer</div>
-          <div className="text-subtitle">Hong Kong SAR</div>
+          <div className="text-subtitle">San Francisco, CA</div>
         </div>
         <div className="d-flex flex-column gap-3 gap-xl-4 home-content-buttons">
           <Link className="primary button" to="/about">
